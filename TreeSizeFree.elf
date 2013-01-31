@@ -1,0 +1,171 @@
+EurekaLog 5.1.11
+
+Application:
+-------------------------------------------------------------
+  1.1 Start Date      : Tue, 21 Apr 2009 08:41:42 -0500
+  1.2 Name/Description: TreeSize Free hard disk space manager
+  1.3 Version Number  : 2.1.0.82
+  1.4 Parameters      : 
+  1.5 Compilation Date: Mon, 7 May 2007 04:11:57 -0500
+
+Exception:
+-----------------------------------------------------------------------------------------------------------
+  2.1 Date   : Tue, 21 Apr 2009 08:43:23 -0500
+  2.2 Address: 0053333A
+  2.3 Module : TreeSizeFree.exe
+  2.4 Type   : EAccessViolation
+  2.5 Message: Access violation at address 0053333A in module 'TreeSizeFree.exe'. Read of address 00000250.
+
+Active Controls:
+----------------------------------
+  3.1 Form Class   : TApplication
+  3.2 Form Text    : TreeSize Free
+  3.3 Control Class: TApplication
+  3.4 Control Text : TreeSize Free
+
+Computer:
+------------------------------------------------------------
+  4.3 Total Memory  : 2047 Mb
+  4.4 Free Memory   : 221 Mb
+  4.5 Total Disk    : 460.55 Gb
+  4.6 Free Disk     : 251.97 Gb
+  4.7 System Up Time: 28 days, 1 hour, 2 minutes, 55 seconds
+  4.8 Processor     : Intel(R) Xeon(TM) CPU 2.40GHz
+  4.9 Display Mode  : 1680 x 1050, 16 bit
+
+Operating System:
+--------------------------------------
+  5.1 Type    : Microsoft Windows 2003
+  5.2 Build # : 3790
+  5.3 Update  : Service Pack 2
+  5.4 Language: English
+
+Call Stack Information:
+---------------------------------------------------------------------------------------
+|Address |Module          |Unit            |Class              |Procedure/Method|Line |
+---------------------------------------------------------------------------------------
+| Exception Thread: ID=5328; Priority=0; Class=; [Main]                               |
+|-------------------------------------------------------------------------------------|
+|0053333A|TreeSizeFree.exe|TntComctrls.pas |TTntCustomStatusBar|GetPanels       |3991 |
+|00533334|TreeSizeFree.exe|TntComctrls.pas |TTntCustomStatusBar|GetPanels       |3990 |
+|005695E0|TreeSizeFree.exe|Main.pas        |TMainForm          |ClearStatusBar  |758  |
+|005695D4|TreeSizeFree.exe|Main.pas        |TMainForm          |ClearStatusBar  |757  |
+|00569273|TreeSizeFree.exe|Main.pas        |TMainForm          |UpdateStatus    |734  |
+|0056922C|TreeSizeFree.exe|Main.pas        |TMainForm          |UpdateStatus    |732  |
+|00568C05|TreeSizeFree.exe|Main.pas        |TMainForm          |SetFolderData   |634  |
+|00568BD4|TreeSizeFree.exe|Main.pas        |TMainForm          |SetFolderData   |630  |
+|00569C45|TreeSizeFree.exe|Main.pas        |TMainForm          |TreeFreeNode    |929  |
+|0051F508|TreeSizeFree.exe|VirtualTrees.pas|TBaseVirtualTree   |DoFreeNode      |18723|
+|00527730|TreeSizeFree.exe|VirtualTrees.pas|TBaseVirtualTree   |DeleteNode      |24275|
+|005275FC|TreeSizeFree.exe|VirtualTrees.pas|TBaseVirtualTree   |DeleteNode      |24228|
+|00527464|TreeSizeFree.exe|VirtualTrees.pas|TBaseVirtualTree   |DeleteChildren  |24170|
+|00527388|TreeSizeFree.exe|VirtualTrees.pas|TBaseVirtualTree   |DeleteChildren  |24137|
+|005270AB|TreeSizeFree.exe|VirtualTrees.pas|TBaseVirtualTree   |Clear           |23899|
+|0051510C|TreeSizeFree.exe|VirtualTrees.pas|TBaseVirtualTree   |Destroy         |11637|
+|773B0448|USER32.dll      |                |                   |CallWindowProcA |     |
+|77393C8C|USER32.dll      |                |                   |DefWindowProcA  |     |
+|77393C30|USER32.dll      |                |                   |DefWindowProcA  |     |
+|7739CF99|USER32.dll      |                |                   |PeekMessageA    |     |
+---------------------------------------------------------------------------------------
+
+Modules Information:
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|Handle  |Name                |Description                                               |Version          |Size   |Modified           |Path                                                                                                |
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|00330000|msvcp60.dll         |Windows NT C++ Runtime Library DLL                        |7.0.3790.3959    |402944 |2007-02-17 04:36:50|C:\WINDOWS\system32                                                                                 |
+|00400000|TreeSizeFree.exe    |TreeSize Free hard disk space manager                     |2.1.0.82         |731200 |2007-05-06 22:15:12|\\tstackhouse3\c$\bin                                                                               |
+|01110000|TortoiseSVN.dll     |TortoiseSVN shell extension client                        |1.5.8.15348      |750080 |2009-02-13 19:17:00|D:\TortoiseSVN\bin                                                                                  |
+|05940000|TortoiseStub.dll    |TortoiseSVN shell extension client                        |1.5.8.15348      |44032  |2009-02-13 19:15:56|D:\TortoiseSVN\bin                                                                                  |
+|05960000|TortoiseOverlays.dll|TortoiseSVN overlay handler shim                          |1.0.4.11886      |80384  |2008-01-16 18:52:50|C:\Program Files\Common Files\TortoiseOverlays                                                      |
+|10000000|intl3_tsvn.dll      |LGPLed libintl for Windows NT/2000/XP and Windows 95/98/ME|0.14.4.0         |57856  |2009-02-13 17:51:16|D:\TortoiseSVN\bin                                                                                  |
+|4DF10000|audiodev.dll        |Portable Media Devices Shell Extension                    |5.2.3810.3997    |479232 |2007-02-17 03:18:14|C:\WINDOWS\system32                                                                                 |
+|4EA20000|WMVCore.DLL         |Windows Media Playback/Authoring DLL                      |10.0.0.4001      |2330624|2008-10-16 09:05:30|C:\WINDOWS\system32                                                                                 |
+|58DD0000|WMASF.DLL           |Windows Media ASF DLL                                     |10.0.0.4000      |228864 |2007-10-23 17:32:30|C:\WINDOWS\system32                                                                                 |
+|5E9A0000|olepro32.dll        |                                                          |5.2.3790.3959    |84480  |2007-02-17 04:43:16|C:\WINDOWS\system32                                                                                 |
+|5F120000|ntlanman.dll        |Microsoft® Lan Manager                                    |5.2.3790.3959    |44032  |2007-02-17 04:42:06|C:\WINDOWS\System32                                                                                 |
+|5F860000|NETUI1.dll          |NT LM UI Common Code - Networking classes                 |5.2.3790.0       |188416 |2003-03-25 07:00:00|C:\WINDOWS\System32                                                                                 |
+|5F8A0000|NETUI0.dll          |NT LM UI Common Code - GUI Classes                        |5.2.3790.0       |77312  |2003-03-25 07:00:00|C:\WINDOWS\System32                                                                                 |
+|6EE60000|libaprutil_tsvn.dll |Apache Portable Runtime Library                           |1.2.12.0         |157184 |2009-02-13 19:11:22|D:\TortoiseSVN\bin                                                                                  |
+|6EEC0000|libapr_tsvn.dll     |Apache Portable Runtime Library                           |1.2.12.0         |118272 |2009-02-13 19:11:08|D:\TortoiseSVN\bin                                                                                  |
+|71B20000|MSWSOCK.dll         |Microsoft Windows Sockets 2.0 Service Provider            |5.2.3790.4318    |256000 |2008-06-20 13:19:52|C:\WINDOWS\system32                                                                                 |
+|71B70000|uxtheme.dll         |Microsoft UxTheme Library                                 |6.0.3790.3959    |206848 |2007-02-17 05:07:46|C:\WINDOWS\system32                                                                                 |
+|71BB0000|wsock32.dll         |Windows Socket 32-Bit DLL                                 |5.2.3790.0       |22528  |2003-03-25 07:00:00|C:\WINDOWS\system32                                                                                 |
+|71BC0000|rdpsnd.dll          |Terminal Server MultiMedia Driver                         |5.2.3790.0       |18432  |2003-03-25 07:00:00|C:\WINDOWS\system32                                                                                 |
+|71BD0000|mpr.dll             |Multiple Provider Router DLL                              |5.2.3790.3959    |57856  |2007-02-17 04:33:32|C:\WINDOWS\system32                                                                                 |
+|71BF0000|WS2HELP.dll         |Windows Socket 2.0 Helper for Windows NT                  |5.2.3790.3959    |19456  |2007-02-17 05:11:36|C:\WINDOWS\system32                                                                                 |
+|71C00000|WS2_32.dll          |Windows Socket 2.0 32-Bit DLL                             |5.2.3790.3959    |83456  |2007-02-17 05:11:36|C:\WINDOWS\system32                                                                                 |
+|71C40000|NETAPI32.dll        |Net Win32 API DLL                                         |5.2.3790.4392    |345088 |2008-10-16 17:18:44|C:\WINDOWS\system32                                                                                 |
+|73070000|winspool.drv        |Windows Spooler Driver                                    |5.2.3790.3959    |150528 |2007-02-17 05:09:14|C:\WINDOWS\system32                                                                                 |
+|75360000|CRYPTUI.dll         |Microsoft Trust UI Provider                               |5.131.3790.3959  |506880 |2007-02-17 03:35:08|C:\WINDOWS\system32                                                                                 |
+|75E60000|apphelp.dll         |Application Compatibility Client Library                  |5.2.3790.3959    |148992 |2007-02-17 03:17:04|C:\WINDOWS\system32                                                                                 |
+|75E90000|drprov.dll          |Microsoft Terminal Server Network Provider                |5.2.3790.3959    |14336  |2007-02-17 03:51:18|C:\WINDOWS\System32                                                                                 |
+|75EA0000|davclnt.dll         |Web DAV Client DLL                                        |5.2.3790.3959    |26112  |2007-02-17 03:38:36|C:\WINDOWS\System32                                                                                 |
+|75EB0000|browseui.dll        |Shell Browser UI Library                                  |6.0.3790.4392    |1033216|2008-10-16 22:19:48|C:\WINDOWS\system32                                                                                 |
+|76190000|MSASN1.dll          |ASN.1 Runtime APIs                                        |5.2.3790.3959    |57344  |2007-02-17 04:34:22|C:\WINDOWS\system32                                                                                 |
+|761B0000|CRYPT32.dll         |Crypto API32                                              |5.131.3790.3959  |595456 |2007-02-17 03:35:06|C:\WINDOWS\system32                                                                                 |
+|76280000|msimg32.dll         |GDIEXT Client DLL                                         |5.2.3790.0       |4608   |2003-03-25 07:00:00|C:\WINDOWS\system32                                                                                 |
+|762B0000|comdlg32.dll        |Common Dialogs DLL                                        |6.0.3790.3959    |273408 |2007-02-17 03:31:40|C:\WINDOWS\system32                                                                                 |
+|76520000|CSCDLL.dll          |Offline Network Agent                                     |5.2.3790.3959    |101888 |2007-02-17 03:37:58|C:\WINDOWS\System32                                                                                 |
+|766D0000|SHFOLDER.dll        |Shell Folder Service                                      |6.0.3790.3959    |25088  |2007-02-17 04:59:28|C:\WINDOWS\system32                                                                                 |
+|768F0000|ntshrui.dll         |Shell extensions for sharing                              |6.0.3790.3959    |142848 |2007-02-17 04:42:32|C:\WINDOWS\system32                                                                                 |
+|76920000|USERENV.dll         |Userenv                                                   |5.2.3790.3959    |780800 |2007-02-17 05:07:44|C:\WINDOWS\system32                                                                                 |
+|76AA0000|winmm.dll           |MCI API DLL                                               |5.2.3790.3959    |174080 |2007-02-17 05:09:08|C:\WINDOWS\system32                                                                                 |
+|76B70000|PSAPI.DLL           |Process Status Helper                                     |5.2.3790.3959    |20480  |2007-02-17 04:52:44|C:\WINDOWS\system32                                                                                 |
+|76BB0000|WINTRUST.dll        |Microsoft Trust Verification APIs                         |5.131.3790.3959  |165888 |2007-02-17 05:09:16|C:\WINDOWS\system32                                                                                 |
+|76C10000|imagehlp.dll        |Windows NT Image Helper                                   |5.2.3790.3959    |147968 |2007-02-18 01:29:54|C:\WINDOWS\system32                                                                                 |
+|76F10000|WLDAP32.dll         |Win32 LDAP API DLL                                        |5.2.3790.3959    |179712 |2007-02-17 05:09:28|C:\WINDOWS\system32                                                                                 |
+|76F50000|Secur32.dll         |Security Support Provider Interface                       |5.2.3790.3959    |65024  |2007-02-17 04:58:56|C:\WINDOWS\system32                                                                                 |
+|77010000|COMRes.dll          |COM+ Resources                                            |2001.12.4720.3959|797184 |2007-02-17 03:31:50|C:\WINDOWS\system32                                                                                 |
+|770E0000|SETUPAPI.dll        |Windows Setup API                                         |5.2.3790.3959    |1069568|2007-02-17 04:59:06|C:\WINDOWS\system32                                                                                 |
+|771F0000|WINSTA.dll          |Winstation Library                                        |5.2.3790.3959    |56320  |2007-02-17 05:09:16|C:\WINDOWS\system32                                                                                 |
+|77210000|wininet.dll         |Internet Extensions for Win32                             |6.0.3790.4392    |670720 |2008-10-16 22:19:48|C:\WINDOWS\system32                                                                                 |
+|77380000|USER32.dll          |Windows USER API Client DLL                               |5.2.3790.4033    |583680 |2007-03-02 01:38:46|C:\WINDOWS\system32                                                                                 |
+|77420000|comctl32.dll        |User Experience Controls Library                          |6.0.3790.3959    |1051648|2007-02-18 02:01:02|C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.3790.3959_x-ww_D8713E55|
+|77670000|ole32.dll           |Microsoft OLE for Windows                                 |5.2.3790.3959    |1267200|2007-02-17 04:43:12|C:\WINDOWS\system32                                                                                 |
+|777B0000|CLBCatQ.DLL         |COM+ Configuration Catalog                                |2001.12.4720.3959|510976 |2007-02-17 03:30:58|C:\WINDOWS\system32                                                                                 |
+|77980000|shdocvw.dll         |Shell Doc Object and Control Library                      |6.0.3790.4392    |1508352|2008-10-17 11:31:18|C:\WINDOWS\system32                                                                                 |
+|77B00000|cscui.dll           |Client Side Caching UI                                    |5.2.3790.3959    |326656 |2007-02-17 03:38:00|C:\WINDOWS\System32                                                                                 |
+|77B90000|version.dll         |Version Checking and File Installation Libraries          |5.2.3790.3959    |18432  |2007-02-17 05:07:52|C:\WINDOWS\system32                                                                                 |
+|77BA0000|msvcrt.dll          |Windows NT CRT DLL                                        |7.0.3790.3959    |348672 |2007-02-17 04:36:50|C:\WINDOWS\system32                                                                                 |
+|77C00000|GDI32.dll           |GDI Client DLL                                            |5.2.3790.4396    |284672 |2008-10-23 06:43:54|C:\WINDOWS\system32                                                                                 |
+|77C50000|RPCRT4.dll          |Remote Procedure Call Runtime                             |5.2.3790.4115    |642048 |2007-07-11 05:38:06|C:\WINDOWS\system32                                                                                 |
+|77D00000|OLEAUT32.dll        |                                                          |5.2.3790.4202    |553984 |2007-12-13 02:49:30|C:\WINDOWS\system32                                                                                 |
+|77DA0000|SHLWAPI.dll         |Shell Light-weight Utility Library                        |6.0.3790.3959    |320000 |2007-02-17 04:59:42|C:\WINDOWS\system32                                                                                 |
+|77E40000|kernel32.dll        |Windows NT BASE API Client DLL                            |5.2.3790.4062    |1037824|2007-04-18 11:25:36|C:\WINDOWS\system32                                                                                 |
+|77F50000|advapi32.dll        |Advanced Windows 32 Base API                              |5.2.3790.3959    |618496 |2007-02-17 03:16:46|C:\WINDOWS\system32                                                                                 |
+|78480000|MSVCP90.dll         |Microsoft® C++ Runtime Library                            |9.0.30729.1      |572928 |2008-07-29 09:05:08|C:\WINDOWS\WinSxS\x86_Microsoft.VC90.CRT_1fc8b3b9a1e18e3b_9.0.30729.1_x-ww_6F74963E                 |
+|78520000|MSVCR90.dll         |Microsoft® C Runtime Library                              |9.0.30729.1      |655872 |2008-07-29 09:05:08|C:\WINDOWS\WinSxS\x86_Microsoft.VC90.CRT_1fc8b3b9a1e18e3b_9.0.30729.1_x-ww_6F74963E                 |
+|7C800000|ntdll.dll           |NT Layer DLL                                              |5.2.3790.3959    |765440 |2007-02-18 01:33:06|C:\WINDOWS\system32                                                                                 |
+|7C8D0000|SHELL32.dll         |Windows Shell Common Dll                                  |6.0.3790.4315    |8360960|2008-06-17 15:08:10|C:\WINDOWS\system32                                                                                 |
+|7E020000|SAMLIB.dll          |SAM Library DLL                                           |5.2.3790.3959    |47104  |2007-02-17 04:58:04|C:\WINDOWS\System32                                                                                 |
+|7FE00000|oleacc.dll          |Active Accessibility Core Component                       |4.2.5406.0       |180224 |2007-02-17 04:43:12|C:\WINDOWS\system32                                                                                 |
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Registers:
+-----------------------------
+EAX: 00000000   EDI: 00F54C30
+EBX: 00000000   ESI: 00000000
+ECX: 00000000   ESP: 0012F8F4
+EDX: 00000001   EIP: 0053333A
+
+Stack:               Memory Dump:
+------------------   ---------------------------------------------------------------------------
+0012F8F4: 00F54C30   0053333A: 8B 83 50 02 00 00 8B 15 FC 23 53 00 E8 45 10 ED  ..P......#S..E..
+0012F8F8: 0012F904   0053334A: FF 5B 5D C3 8B C0 55 8B EC E8 24 F0 F7 FF 5D C3  .[]...U...$...].
+0012F8FC: 005695E5   0053335A: 8B C0 55 8B EC 6A 00 6A 00 53 56 8B F2 8B D8 33  ..U..j.j.SV....3
+0012F900: 00000001   0053336A: C0 55 68 1A 34 53 00 64 FF 30 64 89 20 80 BB 60  .Uh.4S.d.0d. ..`
+0012F904: 0012F998   0053337A: 02 00 00 00 74 74 8B C6 8B 15 CC 65 4D 00 E8 DF  ....tt.....eM...
+0012F908: 00569278   0053338A: 0F ED FF 84 C0 74 63 8B C3 8B 10 FF 92 E0 00 00  .....tc.........
+0012F90C: 0012FA00   0053339A: 00 84 C0 75 55 80 BB 5C 02 00 00 00 75 10 8B C3  ...uU..\....u...
+0012F910: 00404A34   005333AA: E8 85 FF FF FF E8 D0 C5 EE FF 85 C0 75 16 8D 55  ............u..U
+0012F914: 0012F998   005333BA: FC 8B C6 E8 6E 34 FA FF 8B 55 FC 8B C3 E8 38 FD  ....n4...U....8.
+0012F918: 01003D98   005333CA: FF FF EB 22 8D 55 F8 8B C6 E8 58 34 FA FF 8B 45  ...".U....X4...E
+0012F91C: 00000000   005333DA: F8 50 8B C3 E8 51 FF FF FF 33 D2 E8 4E FB FF FF  .P...Q...3..N...
+0012F920: 00F54C30   005333EA: 5A E8 2C FB FF FF B3 01 EB 0B 8B D6 8B C3 E8 FB  Z.,.............
+0012F924: 00000000   005333FA: F7 F7 FF 8B D8 33 C0 5A 59 59 64 89 10 68 21 34  .....3.ZYYd..h!4
+0012F928: 00000000   0053340A: 53 00 8D 45 F8 BA 02 00 00 00 E8 73 26 ED FF C3  S..E.......s&...
+0012F92C: 00000000   0053341A: E9 95 15 ED FF EB EB 8B C3 5E 5B 59 59 5D C3 8D  .........^[YY]..
+0012F930: 00000000   0053342A: 40 00 8B 88 68 02 00 00 89 0A 8B 88 6C 02 00 00  @...h.......l...
+
+
+

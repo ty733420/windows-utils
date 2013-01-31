@@ -1,0 +1,83 @@
+<?xml version="1.0" standalone="yes"?>
+<OWANotify>
+  <Config>
+    <Setting>Username</Setting>
+    <Value />
+    <Comment />
+  </Config>
+  <Config>
+    <Setting>Password</Setting>
+    <Value />
+    <Comment>encrypted</Comment>
+  </Config>
+  <Config>
+    <Setting>Domain</Setting>
+    <Value />
+    <Comment />
+  </Config>
+  <Config>
+    <Setting>URI</Setting>
+    <Value />
+    <Comment>ex: http://server/exchange/user/inbox</Comment>
+  </Config>
+  <Config>
+    <Setting>FBA</Setting>
+    <Value>0</Value>
+    <Comment>server uses Forms Based Authentication?</Comment>
+  </Config>
+  <Config>
+    <Setting>Timer</Setting>
+    <Value>5</Value>
+    <Comment>in minutes</Comment>
+  </Config>
+  <Config>
+    <Setting>Tag</Setting>
+    <Value />
+    <Comment>Optional text to be displayed with every notification and tray icon tooltip</Comment>
+  </Config>
+  <Config>
+    <Setting>ShowSpeed</Setting>
+    <Value>500</Value>
+    <Comment>In milliseconds. How quickly popup appears. Default:500</Comment>
+  </Config>
+  <Config>
+    <Setting>StayTime</Setting>
+    <Value>6000</Value>
+    <Comment>In milliseconds. How long popup stays on screen. Forever:0 Default:6000</Comment>
+  </Config>
+  <Config>
+    <Setting>HideSpeed</Setting>
+    <Value>500</Value>
+    <Comment>In milliseconds. How quickly popup hides. Default:500</Comment>
+  </Config>
+  <Config>
+    <Setting>BypassDeleted</Setting>
+    <Value>0</Value>
+    <Comment>When deleting, bypass Deleted Items folder</Comment>
+  </Config>
+  <Config>
+    <Setting>NoConfirmDelete</Setting>
+    <Value>0</Value>
+    <Comment>Do not display confirmation when deleting</Comment>
+  </Config>
+  <Config>
+    <Setting>SizeX</Setting>
+    <Value>0</Value>
+    <Comment>In pixels. Width of mailbox window. Default:0</Comment>
+  </Config>
+  <Config>
+    <Setting>SizeY</Setting>
+    <Value>0</Value>
+    <Comment>In pixels. Height of mailbox window. Default:0</Comment>
+  </Config>
+  <Config>
+    <Setting>SizeX2</Setting>
+    <Value>0</Value>
+    <Comment>In pixels. Width of message window. Default:0</Comment>
+  </Config>
+  <Config>
+    <Setting>SizeY2</Setting>
+    <Value>0</Value>
+    <Comment>In pixels. Height of message window. Default:0</Comment>
+  </Config>
+</OWANotify>

@@ -1,0 +1,2 @@
+@echo off
+start /MIN mstsc /w:1024 /h:768 /v:%*
